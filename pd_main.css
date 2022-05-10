@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@600&display=swap');
+
+body {
+      font-family: 'Gothic A1';
+  }
+  .toplogin {
+	width: 100%;
+	height: 28px;
+	background-color: #646464;
+	
+}
+
+.toplogin .topmini {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.toplogin .topmini ul {
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+    float: right;
+    margin-top: 5px;
+}
+.toplogin .topmini ul li {
+    padding: 20px;
+    font-size: 15px;
+	display: inline;
+}
+.toplogin .topmini ul li a{
+    color:white;
+	text-decoration: none;
+    padding-right: 20px;
+    font-weight: lighter;
+}
+
+.topmenubg {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+	height: 69px;
+	padding-top: 12px;
+}
+.topmenu {	
+    font-size: 20px;
+    text-align: center;
+	padding-top: 20px;
+}
+.topmenubg .topmenu ul {
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+.topmenubg .topmenu ul li {
+    padding: 70px;
+	display: inline;
+}
+
+.topmenubg .topmenu ul li a{
+    color:rgb(46, 46, 46);
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.topmenubg .topmenu ul li a:hover {
+    color : rgb(110, 110, 110);
+    text-decoration: underline;
+}
