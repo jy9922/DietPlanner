@@ -1,0 +1,30 @@
+#main {
+    background-color:  white;
+    text-align: center;
+    width: 80%;
+    border-radius: 8px;
+    font-family: Black Han Sans;
+}
+
+p {
+    font-size: 25px;
+    color:rgb(76, 76, 76);
+}
+
+.title{
+    margin-top: 20px;
+}
+
+.startBtn {
+    padding: 13px 50px;
+    border: 2px solid rgb(149, 149, 149);
+    color: rgb(149, 149, 149);
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.startBtn:hover, .startBtn:active {
+    background-color: rgb(149, 149, 149);
+    color: whitesmoke;
+}

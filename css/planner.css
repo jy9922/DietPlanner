@@ -1,0 +1,46 @@
+#planner{
+    display: none;
+    text-align: center;
+    background-color: white;
+    width: 80%;
+    border-radius: 20px;
+}
+.plannerIntro{
+    margin-top: 20px;
+}
+.list {
+    font-size: 20px;
+    color:rgb(71, 109, 73);
+    font-style: italic;
+}
+.plannerKcal{
+    font-size: 23px;
+}
+
+.linkList{
+    font-size: 23px;
+    color: #6a6a6a;
+}
+
+.exercisename{
+    font-size: 20px;
+    border: 1 solid #868686;
+    border-radius: 10px;
+    display: block;
+    width: 50%;
+}
+
+.exercisename{
+    color:black; 
+    border: 1px solid #868686; ;
+    text-decoration: none;
+    border: none;
+}
+
+.exercisename:hover, .exercisename:focus {
+    /* background-color: rgb(252, 206, 120); */
+    background-color: #95b491;
+    color: rgb(255, 255, 255);
+    border: none;
+    text-decoration: none;
+    }

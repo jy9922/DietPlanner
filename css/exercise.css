@@ -1,0 +1,67 @@
+#exercise {
+    display: none;
+}
+
+.eBox {
+    font-size: 25px;
+    border-radius: 20px;
+    width: 80%;
+    padding: 5px 30px;
+    text-align: center;
+    color: rgb(62, 62, 62);
+}
+
+.answerList {
+    border: 1 solid #868686;
+    border-radius: 10px;
+    display: block;
+    width: 70%;
+    font-size: 20px;
+    padding: 5px 15px;
+    background-color: white;
+    text-align: center;
+    font-family: 'GmarketSansLight';
+}
+
+.answerList:link{
+    color:black;
+    border: 1px solid #868686;
+    text-decoration: none;
+    border: none;
+}
+
+.answerList:hover, .answerList:focus{
+    /* background-color: rgb(252, 206, 120); */
+    background-color: rgb(149, 149, 149);
+    color: whitesmoke;
+    border: none;
+    text-decoration: none;
+}
+
+.status {
+    height: 20px;
+    width: 80%;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.statusBar {
+    height: 100%;
+    border-radius: 7px;
+    background: rgb(112, 149, 113);
+}
+
+.countStatus{
+    font-family: yg-jalnan;
+    text-align: center;
+    /* color: #868686; */
+    color : #383838;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    }
+    
+    .resultBtn{
+    text-align: center; 
+    margin-top: 20px; 
+    display: inline;
+    }
